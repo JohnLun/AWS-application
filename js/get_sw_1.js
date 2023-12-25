@@ -1,4 +1,4 @@
-const imageURL = 'http://recsports.ufl.edu/cam/cam8.jpg';
+const imageURL = 'https://recsports.ufl.edu/cam/cam8.jpg';
 
 fetch(imageURL)
     .then(response => {

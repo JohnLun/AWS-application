@@ -2,7 +2,7 @@ const imageURL = 'https://recsports.ufl.edu/cam/cam8.jpg';
 
 const proxyURL = 'https://cors-anywhere.herokuapp.com/' + imageURL;
 
-fetch(proxyURL)
+app.fetch(proxyURL)
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
